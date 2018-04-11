@@ -1,0 +1,47 @@
+body
+{
+  margin: 1px;
+  padding: 1px;
+
+}
+h2
+{
+  color:     #821a52 ;
+  ;
+}
+
+.card
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:350px;
+  height: 530px;
+  background: grey;
+}
+
+.card .image
+{
+  position: relative;
+  overflow: hidden;
+}
+.card .image img
+{
+  width: 100%;
+
+}
+
+.content
+{
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+
+  left: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+  z-index: 2;
+
+}
